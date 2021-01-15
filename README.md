@@ -1,24 +1,29 @@
-# README
+# Rails JS Game Library API
+/*
+Review
+    belongs_to :user 
+    belongs_to :game 
+/*
+t.integer :stars
+t.string :game_id
+/*
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Game 
+    has_many :reviews
+/*
+t.string :name 
+t.string :genre 
+t.date :release_date 
+t.string :rating 
+/*
 
-* Ruby version
 
-* System dependencies
+User 
+    has_many :reviews
+/*
 
-* Configuration
+/*
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
