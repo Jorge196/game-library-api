@@ -1,4 +1,5 @@
 # Rails JS Game Library API
+Followed along with the (Rails Devise JWT Tutorial) (https://github.com/dakotalmartinez/rails-devise-jwt-tutorial)
 /*
 Review
     belongs_to :user 
@@ -21,9 +22,17 @@ t.string :rating
 
 User 
     has_many :reviews
-/*
 
-/*
+``` 
+
+```
+
+rails g scaffold game name genre 
+```
+
+```
+rails g scaffold review stars:integer game:reference 
+
 
 
 
