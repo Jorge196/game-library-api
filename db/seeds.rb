@@ -47,3 +47,4 @@ game_18 = Game.find_or_create_by(name: "Marvel's Spider-Man", genre: "Action/Adv
 game_19 = Game.find_or_create_by(name: "The Witcher 3: Wild Hunt", genre: "Action/RPG", release_date: "2015-05-18", rating: "M", image_url: "https://images.logicalincrements.com/gallery/1920/822/witcher3-wallpaper-1.jpeg")
 
 game_20 = Game.find_or_create_by(name: "Valorant", genre: "First-Person Shooter", release_date: "2020-06-02", rating: "T", image_url: "https://cdn.vox-cdn.com/thumbor/Gbbsu1KF9A1WXVJviEtw8i3kzzk=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19755195/VALORANT.jpg")
+
