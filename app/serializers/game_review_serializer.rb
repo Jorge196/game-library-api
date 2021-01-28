@@ -1,5 +1,5 @@
 class GameReviewSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :id, :name
+  attributes :id
   has_many :reviews
 end

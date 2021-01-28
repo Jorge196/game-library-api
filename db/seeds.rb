@@ -6,7 +6,7 @@
 #   movies = Movie.find_or_create_by([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.find_or_create_by(name: 'Luke', movie: movies.first)
 
-user = User.first 
+user = User.first_or_create
 
 game_1 = Game.find_or_create_by(name: "God of War", genre: "Action/Adventure", release_date: "2018-04-20", rating: "M", image_url: "https://i.gadgets360cdn.com/large/god_of_war_ps4_1514806318513.jpg")
 
