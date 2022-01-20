@@ -16,7 +16,7 @@ class ReviewsController < ApplicationController
   
   def create
     @review = current_user.reviews.build(review_params)
-
+    
     if @review.save
       render json: ReviewSerializer.new(@review).serializable_hash[:data][:attributes], status: :created, location: @review
     else
